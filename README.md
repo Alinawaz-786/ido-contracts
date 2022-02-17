@@ -1,31 +1,14 @@
-# NFTMarketPlace
+# EasyAuction
 
-# ERC721 Deploye
-Address 0xF57B2c51dED3A29e6891aba85459d600256Cf317
+EasyAuction should become a platform to execute batch auctions for fair initial offerings and token buyback programs. Batch auctions are a market mechanism for matching limit orders of buyers and sellers of a particular good with one fair clearing price.
+Already in traditional finance, batch auctions have established themselves as a tool for initial offerings, and in the blockchain ecosystem, they are expected to become a fundamental DeFi building lego brick for price-discovery as well.
+The EasyAuction platform is inspired by the auction mechanism of the Gnosis Protocol v1, which has shown a significant product-market fit for initial dex offerings (IDOs) (cp. sales of DIA, mStable, etc…). EasyAuction improves significantly the user experience for IDOs, by settling up arbitrary many bids with a single clearing price instead of roughly 28 orders and thereby making the mechanism fairer, easier to use, and more predictable.
+Given the emerging regulations for IDOs and utility sales - see MiCA -, EasyAuction is intending to comply with them and enabling new projects a safe start without legal risks.
 
-“Non-fungible” more or less means that it’s unique and can’t be replaced with something else. For example, a bitcoin is fungible — trade one for another bitcoin, and you’ll have exactly the same thing. A one-of-a-kind trading card, however, is non-fungible. If you traded it for a different card, you’d have something completely different
+## Use cases
 
-How do NFTs work?
+### Initial token offering with a fair price-discovery
 
-At a very high level, most NFTs are part of the Ethereum blockchain. Ethereum is a cryptocurrency, like bitcoin or dogecoin, but its blockchain also supports these NFTs, which store extra information that makes them work differently from, say, an ETH coin. It is worth noting that other blockchains can implement their own versions of NFTs. 
-
-# TOKENTRANSFERPROXYADDRESS
-Address 0x82d102457854c985221249f86659c9d6cf12aa72
-# TokenAddress 
-Address 0xf44cf0b9b8328adf6d899667b2427d13759087f0
-# ProtocolFeeAddress 
-Address 0xa839d4b5a36265795eba6894651a8af3d0ae2e68
-
-All Above address are use WyvernExchange Contract Constructor 
-
-
-#Hardhat Version
-Compile
-npx hardhat compile
-Deploy
-npx hardhat run --network rinkeby scripts/deploy.js
-Clean Cache
-npx hardhat clean
-Verify contract and set address  
-npx hardhat verify --network rinkeby  "_set deploye Address"
-
+This batch auction mechanism allows communities, projects, and DAOs to offer their future stakeholders fair participation within their ecosystem by acquiring utility and governance tokens. One of the promises of DeFi is the democratization and communitization of big corporate infrastructures to build open platforms for the public good. By running a batch auction, these projects facilitate one of the fairest distribution of stakes. Projects should demonstrate their interest in fair participation by setting a precedence for future processes by choosing this fair auction principle over private multi-stage sales.
+Auction based initial offerings are also picking up in the traditional finance world. Google was one of the first big tech companies using a similar auction mechanism with a unique clearing price to IPO. Nowadays, companies like Slack and Spotify are advocating similar approaches as well via Direct Listings: Selling their stocks in the pre-open auction on the first day of trading.
+Overall this market for initial token offerings is expected to grow significantly over time together with the ecosystem. Even on gnosis protocol version 1, a platform not intended for this use case, was able to facilitate IDOs with a total of more than 20 million funding.
